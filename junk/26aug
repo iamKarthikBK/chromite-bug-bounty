@@ -1,0 +1,16 @@
+Some other ISAs - MIPS, 8080, ARM, CISC, etc
+David Patterson - Textbook, also won the turing award
+
+Q: what compares to x86vector dialect or the arm_neon dialect in riscv ? does an extension to the ISA exist that helps me perform convolution for DL and CV applications?
+
+The GNU Debugger
+use crash dumps to backtrace what went wrong and where
+
+Why is the fixed but 0? most common bit
+Why not 1? it takes more power to store a 1 than to store a 0??
+
+If we switch user as root (or boot into safe mode) does the processor mode change? YES
+
+The supervisor mode is capable of going upto ring 2 or ring 1, and safely comes back to ring 3 when the processor switches into the user mode.
+
+LSB is fixed to 0 because the mim inst size is 16 bits
