@@ -34,3 +34,17 @@ That way, we can have a total of 16777215 instructions
 If only the opcode can be changed (0-6) and the fiest bit is fixed to 0, then we have 5 bits to play with.
 
 So for R, we would have a headspace of 31 more instructions?
+
+_______
+Week 2
+__
+
+- Spike version: 1.0.1-dev
+- Verilator version: 4.106
+- Bluespec Compiler version: 2021.07
+- RISC-V GCC version: 
+
+# Assignment overdue
+1) find the minimal number of CSRs required
+2) Come up with WARL functions which can't be represented by the syntax available
+3) List upto 10 performance counters that you think a processor/core must have
